@@ -57,7 +57,7 @@ const Page = () => {
       formData.append('price', price);
       formData.append('priceneg', priceNegotiable);
       formData.append('desc', desc);
-      formData.append('cat', category);
+      formData.append('category', category);
 
       if (fileField.current.files.length > 0) {
         for (let i = 0; i < fileField.current.files.length; i++) {
